@@ -8,6 +8,18 @@
     <Title>Web API Helpers</Title>
     <Authors>Jeffry Gonzalez</Authors>
 	  <IsPackable>true</IsPackable>
+	  <PackageId>Hypertheory.WebApiShared</PackageId>
+	  <Description>This is Classroom Demonstration Code.</Description>
+	  <PackageReadmeFile>README.md</PackageReadmeFile>
+	  <RepositoryUrl>https://github.com/hypertheory-services/webapishared</RepositoryUrl>
+	  <PackageProjectUrl>https://github.com/hypertheory-services/webapishared</PackageProjectUrl>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
